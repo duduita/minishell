@@ -3,6 +3,8 @@
 
 #include "struct.h"
 
+void errorHandle(char* msg);
+
 void recursive_execve(Process* process);
 
 #endif

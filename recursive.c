@@ -1,5 +1,12 @@
 #include "recursive.h"
 
+
+void errorHandle(char* msg) // função para retornar erro
+{
+	perror(msg);
+	exit(1);
+}
+
 void recursive_execve(Process* process){
     int fd;
     if (process->pipein == NULL){ // caso trivial da recursão

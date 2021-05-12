@@ -6,14 +6,7 @@
 #include "parsing.c"
 #include "recursive.c"
 
-void errorHandle(char* msg);
 int readInput();
-
-void errorHandle(char* msg) // função para retornar erro
-{
-	perror(msg);
-	exit(1);
-}
 
 void printPrompt()
 {
