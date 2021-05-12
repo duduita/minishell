@@ -1,8 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-
 #include "parsing.h"
 
 int verifyChar(char *wantedChar, char string[])
