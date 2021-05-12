@@ -1,6 +1,5 @@
 #include "recursive.h"
 
-
 void errorHandle(char* msg) // função para retornar erro
 {
 	perror(msg);

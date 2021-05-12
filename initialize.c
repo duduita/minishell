@@ -10,9 +10,3 @@ void inicializa_process(Process* process) {
 void allocate_processess(Process* process, int size){
     process = (Process*)malloc(size * sizeof(Process));
 }
-
-void free_process(Process* process, int size){
-    for (int i = 0; i < size; i ++){
-        free(process);
-    }
-}
